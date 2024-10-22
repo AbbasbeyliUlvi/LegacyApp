@@ -4,7 +4,7 @@ using System;
 
 namespace LegacyApp;
 
-public class UserService
+public class UserService : IUserService
 {
     private readonly IUserRepository _userRepository;
     private readonly IClientRepository _clientRepository;
