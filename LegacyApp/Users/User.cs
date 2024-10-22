@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace LegacyApp.Users;
+﻿namespace LegacyApp.Users;
 
 public class User
 {

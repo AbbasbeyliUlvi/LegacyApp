@@ -1,6 +1,5 @@
 ﻿using LegacyApp.Users;
 using LegacyApp.Users.UserCredit;
-using System;
 
 namespace LegacyApp;
 
