@@ -15,8 +15,6 @@ public class UserRepository : IUserRepository
     }
     public void AddUser(User user)
     {
-        string connectionString = ConfigurationManager.ConnectionStrings["appDatabase"].ConnectionString;
-
         using (var connection = _dbConnectionFactory.CreateConnection())
         using (var command = new SqlCommand("uspAddUser", connection) { CommandType = CommandType.StoredProcedure })
         {
